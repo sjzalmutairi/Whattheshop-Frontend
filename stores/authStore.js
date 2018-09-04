@@ -28,6 +28,7 @@ class Store {
       () => {
         this.user = null;
         setAuthToken();
+        console.log("Yaay I'm logged out")
       },
       () => {
         console.log("something went wrong with logging out");
